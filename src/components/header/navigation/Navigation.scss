@@ -1,0 +1,39 @@
+header section nav ul {
+  transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  padding-left: 60px;
+  li {
+    padding: 0 50px;
+    min-width: 180px;
+    &.active {
+      background-color: black;
+      border-radius: 6px;
+      a {
+        color: #8ce064;
+        color: rgb(7, 253, 7);
+      }
+      &:hover {
+        background-color: black;
+      }
+    }
+    &:hover {
+      transition-duration: 1s;
+      -webkit-transition-duration: 0.25s;
+      background-color: rgb(75, 75, 75);
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  }
+}
+@media screen and (max-width: 1026px) {
+  header nav ul li {
+    max-width: 146px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav li {
+    min-width: 100px;
+    font-size: smaller;
+  }
+}

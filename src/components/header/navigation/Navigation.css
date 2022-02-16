@@ -1,0 +1,46 @@
+header section nav ul {
+  transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  padding-left: 60px;
+}
+
+header section nav ul li {
+  padding: 0 50px;
+  min-width: 180px;
+}
+
+header section nav ul li.active {
+  background-color: black;
+  border-radius: 6px;
+}
+
+header section nav ul li.active a {
+  color: #8ce064;
+  color: #07fd07;
+}
+
+header section nav ul li.active:hover {
+  background-color: black;
+}
+
+header section nav ul li:hover {
+  transition-duration: 1s;
+  -webkit-transition-duration: 0.25s;
+  background-color: #4b4b4b;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1026px) {
+  header nav ul li {
+    max-width: 146px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav li {
+    min-width: 100px;
+    font-size: smaller;
+  }
+}
+/*# sourceMappingURL=Navigation.css.map */
