@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d68c67a.chunk.css",
-    "main.js": "/static/js/main.ddb613b9.chunk.js",
-    "main.js.map": "/static/js/main.ddb613b9.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.138ca58e.js",
-    "runtime~main.js.map": "/static/js/runtime~main.138ca58e.js.map",
-    "static/js/2.716ea5bf.chunk.js": "/static/js/2.716ea5bf.chunk.js",
-    "static/js/2.716ea5bf.chunk.js.map": "/static/js/2.716ea5bf.chunk.js.map",
-    "static/js/3.13844b13.chunk.js": "/static/js/3.13844b13.chunk.js",
-    "static/js/3.13844b13.chunk.js.map": "/static/js/3.13844b13.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7ee2ce425b85b680f8897cc1e7fcbd27.js": "/precache-manifest.7ee2ce425b85b680f8897cc1e7fcbd27.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.1d68c67a.chunk.css.map": "/static/css/main.1d68c67a.chunk.css.map",
-    "static/media/index.css": "/static/media/workday.97433c4c.png",
-    "static/media/face-hood.png": "/static/media/face-hood.541386de.png"
+    "main.css": "/portfolio-react/static/css/main.04b4a0fd.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.ddb613b9.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.ddb613b9.chunk.js.map",
+    "runtime~main.js": "/portfolio-react/static/js/runtime~main.ca44fba5.js",
+    "runtime~main.js.map": "/portfolio-react/static/js/runtime~main.ca44fba5.js.map",
+    "static/js/2.716ea5bf.chunk.js": "/portfolio-react/static/js/2.716ea5bf.chunk.js",
+    "static/js/2.716ea5bf.chunk.js.map": "/portfolio-react/static/js/2.716ea5bf.chunk.js.map",
+    "static/js/3.13844b13.chunk.js": "/portfolio-react/static/js/3.13844b13.chunk.js",
+    "static/js/3.13844b13.chunk.js.map": "/portfolio-react/static/js/3.13844b13.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "precache-manifest.557058259af3e85349963b89514788b2.js": "/portfolio-react/precache-manifest.557058259af3e85349963b89514788b2.js",
+    "service-worker.js": "/portfolio-react/service-worker.js",
+    "static/css/main.04b4a0fd.chunk.css.map": "/portfolio-react/static/css/main.04b4a0fd.chunk.css.map",
+    "static/media/index.css": "/portfolio-react/static/media/workday.97433c4c.png",
+    "static/media/face-hood.png": "/portfolio-react/static/media/face-hood.541386de.png"
   }
 }
