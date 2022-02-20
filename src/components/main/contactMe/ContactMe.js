@@ -28,13 +28,21 @@ const ContactMe = () => {
 
         <h3>Github</h3>
         <p>
-          <a href='https://github.com/bravotango' target='_blank'>
+          <a
+            href='https://github.com/bravotango'
+            rel='noopener noreferrer'
+            target='_blank'
+          >
             https://github.com/bravotango
           </a>
         </p>
         <h3>LinkedIn</h3>
         <p>
-          <a href='https://www.linkedin.com/in/btgraphix/' target='_blank'>
+          <a
+            href='https://www.linkedin.com/in/btgraphix/'
+            rel='noopener noreferrer'
+            target='_blank'
+          >
             https://www.linkedin.com/in/btgraphix/
           </a>
         </p>

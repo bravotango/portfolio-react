@@ -23,7 +23,7 @@
   --margin-large: calc(var(--margin-default) * 3.5);
   --margin-larger: calc(var(--margin-default) * 6);
   --primary-background-color: rgba(0, 0, 0, 0.85);
-  --link-color: #98ddf9ff;
+  --link-color: rgb(151, 208, 255);
   --link-external: '❐';
   --link-phone: '📱';
   --link-top-of-page: '▲';
@@ -39,6 +39,10 @@ body {
   min-width: 300px;
   overflow-y: scroll;
   background: url(./images/bg.jpg);
+}
+
+a {
+  color: #6c120cff;
 }
 
 a[target='_blank'] {
@@ -276,11 +280,11 @@ main section div.articles article h3 {
 
 main section div.articles article p {
   color: white;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   bottom: 50px;
-  width: 50%;
-  margin: var(--margin-default);
+  width: 100%;
+  margin: 0;
   padding: var(--padding-default);
 }
 

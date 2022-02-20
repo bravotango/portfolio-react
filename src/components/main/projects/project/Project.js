@@ -9,13 +9,22 @@ const Project = (props) => {
         <strong>Description</strong>
         {props.description}
         <strong>Repo</strong>
-        <a href={props.repo} target='_blank'>
+        <a href={props.repo} rel='noopener noreferrer' target='_blank'>
           {props.repo}
         </a>
-        <strong>Deployed location</strong>
-        <a href={props.deployedLocation} target='_blank'>
-          {props.deployedLocation}
-        </a>
+
+        {props.deployedLocation && (
+          <>
+            <strong>Deployed location</strong>
+            <a
+              href={props.deployedLocation}
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              {props.deployedLocation}
+            </a>
+          </>
+        )}
       </p>
     </article>
   );
