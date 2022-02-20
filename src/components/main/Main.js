@@ -1,7 +1,7 @@
 import React from 'react';
 import AboutMe from './aboutMe/AboutMe';
 import ContactMe from './contactMe/ContactMe';
-import Projects from './projects/Project';
+import Projects from './projects/Projects';
 import Resume from './resume/Resume';
 
 function Main(props) {

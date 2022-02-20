@@ -32,6 +32,7 @@ const AboutMe = () => {
           in databases:
         </h4>
         <ul>
+          <li>MS Access</li>
           <li>MySQL2</li>
           <li>MongoDB</li>
         </ul>

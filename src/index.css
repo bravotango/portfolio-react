@@ -37,7 +37,7 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   background-color: #befdf9ff;
   min-width: 300px;
-  margin-bottom: 100%;
+  overflow-y: scroll;
   background: url(./images/bg.jpg);
 }
 
@@ -392,10 +392,7 @@ footer a.up::after {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    font-size: var(--font-size-larger);
-  }
-  header section nav ul li a:hover {
-    border-bottom: 5px solid var(--link-color);
+    font-size: var(--font-size-large);
   }
   main section {
     display: -webkit-box;
