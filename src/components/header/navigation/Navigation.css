@@ -1,26 +1,26 @@
 header section nav ul {
-  transition-duration: 1s;
-  -webkit-transition-duration: 1s;
   padding-left: 60px;
 }
 
 header section nav ul li {
   padding: 0 50px;
   min-width: 180px;
+  border: 1px solid transparent;
 }
 
 header section nav ul li.active {
   background-color: black;
   border-radius: 6px;
+  border: 1px solid #07fd07;
 }
 
 header section nav ul li.active a {
-  color: #8ce064;
   color: #07fd07;
 }
 
 header section nav ul li.active:hover {
   background-color: black;
+  border: 1px solid #07fd07;
 }
 
 header section nav ul li:hover {
