@@ -175,6 +175,7 @@ main {
   margin: var(--margin-large) auto;
   h2 {
     font-family: 'Fira Sans', sans-serif;
+    margin-bottom: var(--margin-large);
   }
 
   p,
@@ -191,6 +192,9 @@ main {
   section {
     display: flex;
     margin-top: var(--margin-larger);
+    h3 {
+      margin-bottom: var(--margin-medium);
+    }
     &#aboutMe {
       h4 {
         margin-top: var(--margin-large);
@@ -203,16 +207,18 @@ main {
         margin: var(--margin-default) var(--margin-larger) var(--margin-large);
 
         li {
-          margin-right: var(--margin-largest);
           white-space: nowrap;
           min-width: 150px;
         }
       }
     }
     div {
-      min-width: 35%;
-      padding-right: var(--padding-default);
-      margin-right: var(--margin-default);
+      width: 100%;
+      &:first-child {
+        width: 200px;
+        padding-right: var(--padding-default);
+        margin-right: var(--margin-larger);
+      }
     }
     div.articles {
       display: flex;
@@ -354,21 +360,24 @@ footer {
       }
     }
   }
-  main section {
-    display: flex;
-
-    > div {
-      min-width: 20%;
-    }
-  }
 }
 
 // laptop
 @media screen and (max-width: 1028px) {
-  main section div.articles article {
-    width: 100%;
-    p {
-      width: auto;
+  main section {
+    display: flex;
+    flex-direction: column;
+    div {
+      &.articles article {
+        width: 100%;
+        p {
+          width: auto;
+        }
+      }
+
+      &:first-child {
+        width: 100%;
+      }
     }
   }
 }
