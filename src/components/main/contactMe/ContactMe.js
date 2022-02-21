@@ -1,12 +1,11 @@
 import React from 'react';
+import Form from './form/Form';
 
 const ContactMe = () => {
   return (
     <section id='contactMe'>
       <div>
         <h2>Contact Me</h2>
-      </div>
-      <div>
         <h3>Address</h3>
         <address>
           Brian Tracy
@@ -28,16 +27,30 @@ const ContactMe = () => {
 
         <h3>Github</h3>
         <p>
-          <a href='https://github.com/bravotango' target='_blank'>
+          <a
+            href='https://github.com/bravotango'
+            rel='noopener noreferrer'
+            target='_blank'
+          >
             https://github.com/bravotango
           </a>
         </p>
         <h3>LinkedIn</h3>
         <p>
-          <a href='https://www.linkedin.com/in/btgraphix/' target='_blank'>
+          <a
+            href='https://www.linkedin.com/in/btgraphix/'
+            rel='noopener noreferrer'
+            target='_blank'
+          >
             https://www.linkedin.com/in/btgraphix/
           </a>
         </p>
+      </div>
+      <div>
+        <h3>Send me a message</h3>
+        <div>
+          <Form />
+        </div>
       </div>
     </section>
   );

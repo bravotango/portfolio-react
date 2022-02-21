@@ -1,0 +1,132 @@
+@charset "UTF-8";
+.error {
+  color: red;
+}
+
+.valid {
+  color: #00fd0d;
+}
+
+.input-wrapper:after {
+  position: relative;
+  right: 16px;
+}
+
+.input-wrapper.valid:after {
+  content: '✔';
+}
+
+.input-wrapper.error:after {
+  content: '✘';
+}
+
+form div .input-wrapper.valid input,
+form div .input-wrapper.valid textarea {
+  border-left: 5px solid green;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 6px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 12px;
+}
+
+form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2px;
+}
+
+form div label,
+form div input,
+form div textarea,
+form div span {
+  display: inline-block;
+  padding: 6px;
+  min-width: 50px;
+  max-width: 160px;
+}
+
+form div input,
+form div textarea {
+  min-width: 202px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  padding-right: 20px;
+}
+
+form div label {
+  padding-bottom: 0;
+  min-width: 86px;
+}
+
+form div button {
+  padding: 8px 26px;
+  border: 1px solid #f3f9ff;
+  border-radius: 4px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+form div button:hover {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  background-color: #e8f0fe;
+}
+
+form div button:disabled:hover {
+  background-color: transparent;
+}
+
+form .valid {
+  color: green;
+}
+
+form .footer {
+  margin-top: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 460px) {
+  form {
+    max-width: 400px;
+    min-width: 286px;
+  }
+  form div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  form div .input-wrapper:after {
+    top: 24px;
+  }
+}
+/*# sourceMappingURL=Form.css.map */

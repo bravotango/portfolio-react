@@ -5,7 +5,6 @@ import Projects from './projects/Projects';
 import Resume from './resume/Resume';
 
 function Main(props) {
-  console.log('activeMainComponent', props.activeMainComponent);
   switch (props.activeMainComponent) {
     case 'aboutMe': {
       return <AboutMe />;
@@ -19,8 +18,10 @@ function Main(props) {
     case 'resume': {
       return <Resume />;
     }
+    default: {
+      return <AboutMe />;
+    }
   }
-  return 'In development';
 }
 
 export default Main;

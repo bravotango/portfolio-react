@@ -5,7 +5,11 @@ const Footer = () => {
   const fullYear = today.getFullYear();
   return (
     <footer>
-      <a href='https:www.btgraphix.com' target='_blank'>
+      <a
+        href='https:www.btgraphix.com'
+        rel='noopener noreferrer'
+        target='_blank'
+      >
         BTgraphix.com
       </a>
       {fullYear}
