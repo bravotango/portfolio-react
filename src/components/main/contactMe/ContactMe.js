@@ -32,7 +32,7 @@ const ContactMe = () => {
             rel='noopener noreferrer'
             target='_blank'
           >
-            https://github.com/bravotango
+            github.com/bravotango
           </a>
         </p>
         <h3>LinkedIn</h3>
@@ -42,7 +42,7 @@ const ContactMe = () => {
             rel='noopener noreferrer'
             target='_blank'
           >
-            https://www.linkedin.com/in/btgraphix/
+            linkedin.com/in/btgraphix/
           </a>
         </p>
       </div>

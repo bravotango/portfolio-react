@@ -13,9 +13,15 @@ const Footer = () => {
         BTgraphix.com
       </a>
       {fullYear}
-      <a className='up' href='#top'>
-        Top of page
-      </a>
+      <div>
+        <a href='https://github.com/bravotango' target='_blank'>
+          <ion-icon name='logo-github'></ion-icon>
+        </a>
+
+        <a href='https://www.linkedin.com/in/btgraphix/' target='_blank'>
+          <ion-icon name='logo-linkedin'></ion-icon>
+        </a>
+      </div>
     </footer>
   );
 };

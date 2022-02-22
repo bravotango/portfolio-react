@@ -24,7 +24,7 @@
   --margin-larger: calc(var(--margin-default) * 6);
   --primary-background-color: rgba(0, 0, 0, 0.85);
   --link-color: rgb(151, 208, 255);
-  --link-external: '❐';
+  --link-external: '⚡';
   --link-phone: '📱';
   --link-top-of-page: '▲';
   --link-email: '✉️';
@@ -195,6 +195,14 @@ main h2 {
   margin-bottom: var(--margin-large);
 }
 
+main > h3 {
+  margin: var(--margin-large) 0 var(--margin-small);
+}
+
+main > h3:first-child {
+  margin-top: 0;
+}
+
 main p,
 main address {
   line-height: 1.5em;
@@ -211,18 +219,22 @@ main section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: var(--margin-larger);
+  margin: var(--margin-larger) 0 calc(var(--margin-larger) * 2);
+}
+
+main section > div > div {
+  margin-bottom: var(--margin-larger);
 }
 
 main section h3 {
   margin-bottom: var(--margin-medium);
 }
 
-main section#aboutMe h4 {
+main section#aboutMe h4, main section#resume h4 {
   margin-top: var(--margin-large);
 }
 
-main section#aboutMe ul {
+main section#aboutMe ul, main section#resume ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,17 +246,17 @@ main section#aboutMe ul {
   margin: var(--margin-default) var(--margin-larger) var(--margin-large);
 }
 
-main section#aboutMe ul li {
+main section#aboutMe ul li, main section#resume ul li {
   white-space: nowrap;
   min-width: 150px;
 }
 
-main section div {
+main section > div {
   width: 100%;
 }
 
-main section div:first-child {
-  width: 200px;
+main section > div:first-child {
+  width: 260px;
   padding-right: var(--padding-default);
   margin-right: var(--margin-larger);
 }
@@ -377,6 +389,7 @@ footer {
   background-color: var(--primary-background-color);
   color: white;
   text-align: center;
+  margin-top: var(--margin-larger);
 }
 
 footer a {
@@ -390,6 +403,17 @@ footer a.up {
 footer a.up::after {
   content: var(--link-top-of-page);
   margin-left: var(--margin-small);
+  position: absolute;
+  white-space: nowrap;
+}
+
+footer a[target='_blank'] {
+  margin-right: 6px;
+}
+
+footer a[target='_blank']::after {
+  content: '';
+  margin-left: 0;
   position: absolute;
   white-space: nowrap;
 }
@@ -430,7 +454,8 @@ footer a.up::after {
 }
 
 @media screen and (max-width: 768px) {
-  main section#aboutMe ul {
+  main section#aboutMe ul,
+  main section#resume ul {
     margin: var(--margin-small) var(--margin-large);
   }
 }
