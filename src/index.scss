@@ -34,7 +34,7 @@
   --link-color: rgb(151, 208, 255);
 
   // icons
-  --link-external: '❐';
+  --link-external: '⚡';
   --link-phone: '📱';
   --link-top-of-page: '▲';
   --link-email: '✉️';
@@ -177,6 +177,12 @@ main {
     font-family: 'Fira Sans', sans-serif;
     margin-bottom: var(--margin-large);
   }
+  > h3 {
+    margin: var(--margin-large) 0 var(--margin-small);
+    &:first-child {
+      margin-top: 0;
+    }
+  }
 
   p,
   address {
@@ -191,11 +197,15 @@ main {
 
   section {
     display: flex;
-    margin-top: var(--margin-larger);
+    margin: var(--margin-larger) 0 calc(var(--margin-larger) * 2);
+    > div > div {
+      margin-bottom: var(--margin-larger);
+    }
     h3 {
       margin-bottom: var(--margin-medium);
     }
-    &#aboutMe {
+    &#aboutMe,
+    &#resume {
       h4 {
         margin-top: var(--margin-large);
       }
@@ -212,10 +222,10 @@ main {
         }
       }
     }
-    div {
+    > div {
       width: 100%;
       &:first-child {
-        width: 200px;
+        width: 260px;
         padding-right: var(--padding-default);
         margin-right: var(--margin-larger);
       }
@@ -332,7 +342,7 @@ footer {
   background-color: var(--primary-background-color);
   color: white;
   text-align: center;
-
+  margin-top: var(--margin-larger);
   a {
     color: var(--link-color);
     // arrow up icon for footer anchors with .up class'
@@ -341,6 +351,15 @@ footer {
       &::after {
         content: var(--link-top-of-page);
         margin-left: var(--margin-small);
+        position: absolute;
+        white-space: nowrap;
+      }
+    }
+    &[target='_blank'] {
+      margin-right: 6px;
+      &::after {
+        content: '';
+        margin-left: 0;
         position: absolute;
         white-space: nowrap;
       }
@@ -384,7 +403,8 @@ footer {
 
 // tablet
 @media screen and (max-width: 768px) {
-  main section#aboutMe ul {
+  main section#aboutMe ul,
+  main section#resume ul {
     margin: var(--margin-small) var(--margin-large);
   }
 }
