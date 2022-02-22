@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cec4ef2edf58528c714785ca20a7508a",
+    "revision": "37d40e58c97761eb28aec2cf74a9a87d",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "0233b257933dc0f81a2f",
-    "url": "/portfolio-react/static/css/main.66d874e5.chunk.css"
+    "revision": "a91e6d02e8ac75182bf4",
+    "url": "/portfolio-react/static/css/main.eb75c695.chunk.css"
   },
   {
     "revision": "cd8af5b4f5ade91d31c8",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react/static/js/3.7b64e4a7.chunk.js"
   },
   {
-    "revision": "0233b257933dc0f81a2f",
-    "url": "/portfolio-react/static/js/main.f5949eb6.chunk.js"
+    "revision": "a91e6d02e8ac75182bf4",
+    "url": "/portfolio-react/static/js/main.ca773dcf.chunk.js"
   },
   {
     "revision": "d7598e582b92221c86a5",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react/static/media/joker.5dafbba4.png"
   },
   {
-    "revision": "6da163f1b78ea07f0ca31a1d378fb442",
-    "url": "/portfolio-react/static/media/movie.6da163f1.jpg"
+    "revision": "2247c921bd25644b356968df429e336f",
+    "url": "/portfolio-react/static/media/movie.2247c921.jpg"
   },
   {
     "revision": "8a3e15d5ae5d179c25f9d6f36a8964a4",
