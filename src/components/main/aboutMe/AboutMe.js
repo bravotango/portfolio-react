@@ -7,11 +7,10 @@ const AboutMe = () => {
         <h2>About Me</h2>
 
         <p>
-          I love to laugh. I love being outside. I love playing soccer or riding
-          motorcycles with my 2 wonderful children. I love yard work, I practice
-          yoga, and during summers we pull our travel trailer on adventures
+          I love to laugh. I love being outside. I love playing sports. I love
+          yard work, I practice yoga, and during summers we go on adventures
           around the Pacific Northwest. Our home is in Bothell, protected by
-          Hazel, our husky-shepherd and Phishy, our mischievous striped cat.
+          Hazel, our husky-shepherd & Phishy, our mischievous striped cat.
         </p>
       </div>
       <div>
