@@ -19,7 +19,7 @@ const AboutMe = () => {
           <div>
             <p>
               I love collaborating, brainstorming, dreaming. I love transforming
-              ideas into applications available to everyone on the web.
+              ideas into applications available for everyone on the web.
             </p>
             <p>My focus when creating solutions is simplicity.</p>
           </div>

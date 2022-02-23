@@ -28,11 +28,11 @@ const ContactMe = () => {
         <h3>Github</h3>
         <p>
           <a
-            href='https://github.com/bravotango'
+            href='https://github.com/bravotango/'
             rel='noopener noreferrer'
             target='_blank'
           >
-            github.com/bravotango
+            github.com/bravotango/
           </a>
         </p>
         <h3>LinkedIn</h3>
@@ -43,6 +43,16 @@ const ContactMe = () => {
             target='_blank'
           >
             linkedin.com/in/btgraphix/
+          </a>
+        </p>
+        <h3>Website</h3>
+        <p>
+          <a
+            href='https://www.btgraphix.com/'
+            rel='noopener noreferrer'
+            target='_blank'
+          >
+            BTgraphix.com/
           </a>
         </p>
       </div>

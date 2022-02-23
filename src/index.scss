@@ -186,6 +186,7 @@ main {
 
   p,
   address {
+    padding-bottom: 14px;
     line-height: 1.5em;
     margin: var(--margin-default) 0;
   }
@@ -302,7 +303,7 @@ main {
           background-image: url(./images/tech-blog.png);
         }
         &#project-1 {
-          background-image: url(./images/movie.jpg);
+          background-image: url(./images/movie-sm.jpg);
         }
         &#employee-tracker {
           background-image: url(./images/office-characters.png);
@@ -343,6 +344,7 @@ footer {
   color: white;
   text-align: center;
   margin-top: var(--margin-larger);
+  padding: 26px;
   a {
     color: var(--link-color);
     // arrow up icon for footer anchors with .up class'
