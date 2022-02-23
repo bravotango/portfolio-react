@@ -390,6 +390,7 @@ footer {
   color: white;
   text-align: center;
   margin-top: var(--margin-larger);
+  padding: 26px;
 }
 
 footer a {
