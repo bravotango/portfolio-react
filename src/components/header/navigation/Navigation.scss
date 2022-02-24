@@ -1,0 +1,36 @@
+header section nav ul {
+  li {
+    padding: 0 26px 0 26px;
+    min-width: 100px;
+    border: 1px solid transparent;
+    &.active {
+      background-color: black;
+      border-radius: 6px;
+      border: 1px solid rgb(151, 208, 255);
+      color: rgb(151, 208, 255);
+      &:hover {
+        background-color: black;
+        border: 1px solid rgb(151, 208, 255);
+      }
+    }
+    &:hover {
+      transition-duration: 1s;
+      -webkit-transition-duration: 0.25s;
+      background-color: rgb(75, 75, 75);
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  }
+}
+@media screen and (max-width: 1026px) {
+  header section nav ul li {
+    max-width: 146px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  header section nav ul li {
+    min-width: 122px;
+    font-size: smaller;
+  }
+}
