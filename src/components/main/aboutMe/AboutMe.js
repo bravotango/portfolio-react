@@ -8,9 +8,9 @@ const AboutMe = () => {
         <h2>About Me</h2>
 
         <p>
-          I enjoy laughing, being outside, friends, and family. Our home is in
-          Bothell, protected by Hazel, our husky-shepherd & Phish, our curious
-          cat.
+          I enjoy laughing, the outdoors, camping, yoga, soccer, motorcycles, my
+          kids, friends, and family. Our home is in Bothell, protected by Hazel,
+          our husky-shepherd & Phish, our curious cat.
         </p>
       </div>
       <div>
