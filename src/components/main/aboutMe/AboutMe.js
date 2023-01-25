@@ -18,10 +18,12 @@ const AboutMe = () => {
           <h3>Websites</h3>
           <div>
             <p>
-              I love collaborating, brainstorming, dreaming. I love transforming
-              ideas into applications available for everyone on the web.
+              I love transforming ideas into applications available for everyone
+              on the web.
             </p>
-            <p>My focus when creating solutions is simplicity.</p>
+            <p>
+              My focus when creating solutions is simplicity & accessibility.
+            </p>
           </div>
         </div>
         <div>
