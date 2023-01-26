@@ -73,13 +73,13 @@ const Form = () => {
     }
   }
 
-  function displayError(additionalText) {
-    return (
-      additionalText && (
-        <span className='error'>{additionalText && `${additionalText}`}</span>
-      )
-    );
-  }
+  // function displayError(additionalText) {
+  //   return (
+  //     additionalText && (
+  //       <span className='error'>{additionalText && `${additionalText}`}</span>
+  //     )
+  //   );
+  // }
 
   function getClass(input, isValid) {
     return `input-wrapper ${

@@ -9,8 +9,8 @@ const AboutMe = () => {
 
         <p>
           I enjoy laughing, the outdoors, camping, yoga, soccer, motorcycles, my
-          kids, friends, and family. Our home is in Bothell, protected by Hazel,
-          our husky-shepherd & Phish, our curious cat.
+          kids, my family & friends. Our home is in Bothell, protected by Hazel,
+          our husky-shepherd & Soup, our downstairs cat.
         </p>
       </div>
       <div>
@@ -18,12 +18,10 @@ const AboutMe = () => {
           <h3>Websites</h3>
           <div>
             <p>
-              I love transforming ideas into applications available for everyone
-              on the web.
+              I love transforming ideas into applications accessible for
+              everyone on the web.
             </p>
-            <p>
-              My focus when creating solutions is simplicity & accessibility.
-            </p>
+            <p>My focus when creating solutions is simplicity.</p>
           </div>
         </div>
         <div>
@@ -33,5 +31,4 @@ const AboutMe = () => {
     </section>
   );
 };
-
 export default AboutMe;
