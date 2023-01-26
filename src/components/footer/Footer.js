@@ -14,11 +14,19 @@ const Footer = () => {
       </a>
       {fullYear}
       <div>
-        <a href='https://github.com/bravotango' target='_blank'>
+        <a
+          href='https://github.com/bravotango'
+          rel='noopener noreferrer'
+          target='_blank'
+        >
           <ion-icon name='logo-github'></ion-icon>
         </a>
 
-        <a href='https://www.linkedin.com/in/btgraphix/' target='_blank'>
+        <a
+          href='https://www.linkedin.com/in/btgraphix/'
+          rel='noopener noreferrer'
+          target='_blank'
+        >
           <ion-icon name='logo-linkedin'></ion-icon>
         </a>
       </div>
