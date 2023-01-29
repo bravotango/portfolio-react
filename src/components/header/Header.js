@@ -16,7 +16,7 @@ const Header = (props) => {
           </h1>
           <div className='current'>
             <div>
-              <p>Creator, Designer, Software Development Engineer</p>
+              <p>Software Development Engineer, Creator, Designer</p>
             </div>
           </div>
         </div>
