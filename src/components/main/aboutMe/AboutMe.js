@@ -10,7 +10,7 @@ const AboutMe = () => {
         <p>
           I enjoy laughing, the outdoors, camping, yoga, soccer, motorcycles, my
           kids, my family & friends. Our home is in Bothell, protected by Hazel,
-          our husky-shepherd & Soup, our downstairs cat.
+          our husky-shepherd & Soup, our downstairs kitty cat.
         </p>
       </div>
       <div>
