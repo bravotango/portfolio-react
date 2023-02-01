@@ -57,8 +57,9 @@ const AboutMe = () => {
             as I was the only UI developer for many years. As we grew, a UI team
             was created. As part of the UI team, we adopted the Bootstrap CSS
             framework & created reusable Angular components for teams to consume
-            (carousels, alerts, cards, accordions, etc.). I became the UI lead
-            for the Provider team before my departure.
+            (carousels, alerts, cards, accordions, etc.). Implementing
+            responsive design for all portals on all Premera & LifeWise websites
+            was one of my favorite achievements.
           </p>
         </div>
       </div>
