@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2953969b906a1622db3eb29f9ff5a174",
+    "revision": "d078af412be1d510d404504f132ccdac",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "e7865dccb00b4adcef16",
-    "url": "/portfolio-react/static/css/main.3e46291f.chunk.css"
+    "revision": "44629d6ec11265c43e49",
+    "url": "/portfolio-react/static/css/main.5b8ead9c.chunk.css"
   },
   {
     "revision": "cd8af5b4f5ade91d31c8",
@@ -16,32 +16,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react/static/js/3.7b64e4a7.chunk.js"
   },
   {
-    "revision": "e7865dccb00b4adcef16",
-    "url": "/portfolio-react/static/js/main.fe7c8957.chunk.js"
+    "revision": "44629d6ec11265c43e49",
+    "url": "/portfolio-react/static/js/main.91108853.chunk.js"
   },
   {
     "revision": "d7598e582b92221c86a5",
     "url": "/portfolio-react/static/js/runtime~main.8933c044.js"
   },
   {
-    "revision": "8513698c884b56cc9c20d56b307e2180",
-    "url": "/portfolio-react/static/media/bg-ana.8513698c.jpg"
-  },
-  {
     "revision": "1e6213405ed38532461169550dad4d42",
     "url": "/portfolio-react/static/media/bg.1e621340.jpg"
+  },
+  {
+    "revision": "ed72380b0f17e064453721aea421e935",
+    "url": "/portfolio-react/static/media/codeQuiz.ed72380b.png"
   },
   {
     "revision": "541386de2c45c5d1b80c13536dc5e02a",
     "url": "/portfolio-react/static/media/face-hood.541386de.png"
   },
   {
-    "revision": "5dafbba425a6bd77547759e522a3cae9",
-    "url": "/portfolio-react/static/media/joker.5dafbba4.png"
-  },
-  {
     "revision": "e399d27428629fdc6eacc354d6b4bf5a",
     "url": "/portfolio-react/static/media/movie-sm.e399d274.jpg"
+  },
+  {
+    "revision": "485bd9c25a47eb282a72360ae827d793",
+    "url": "/portfolio-react/static/media/noteTaker.485bd9c2.png"
   },
   {
     "revision": "8a3e15d5ae5d179c25f9d6f36a8964a4",
