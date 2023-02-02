@@ -47,7 +47,7 @@ $celeste: #befdf9ff;
 $sky-blue: #98ddf9ff;
 $dark-sienna: #2a0604ff;
 $seal-brown: #541907ff;
-$blood-red: #6c120cff;
+$blood-red: #6c120c;
 
 body {
   font-size: var(--font-size-default);
@@ -203,6 +203,7 @@ main {
       margin-bottom: var(--margin-larger);
     }
     h3 {
+      color: #7f130c;
       margin-bottom: var(--margin-medium);
     }
     &#aboutMe,
@@ -317,11 +318,11 @@ main {
         &#react {
           background-image: url(./images/walk.jpg);
         }
-        &#angular {
-          background-image: url(./images/bg-ana.jpg);
+        &#express {
+          background-image: url(./images/noteTaker.png);
         }
-        &#api {
-          background-image: url(./images/joker.png);
+        &#javascript {
+          background-image: url(./images/codeQuiz.png);
         }
         // increase the margin top for the articles after the 1st article
         &:nth-child(n + 2) {
@@ -391,9 +392,6 @@ footer {
     div {
       &.articles article {
         width: 100%;
-        p {
-          width: auto;
-        }
       }
 
       &:first-child {

@@ -228,6 +228,7 @@ main section > div > div {
 }
 
 main section h3 {
+  color: #7f130c;
   margin-bottom: var(--margin-medium);
 }
 
@@ -365,12 +366,12 @@ main section div.articles article#react {
   background-image: url(./images/walk.jpg);
 }
 
-main section div.articles article#angular {
-  background-image: url(./images/bg-ana.jpg);
+main section div.articles article#express {
+  background-image: url(./images/noteTaker.png);
 }
 
-main section div.articles article#api {
-  background-image: url(./images/joker.png);
+main section div.articles article#javascript {
+  background-image: url(./images/codeQuiz.png);
 }
 
 main section div.articles article:nth-child(n + 2) {
@@ -446,9 +447,6 @@ footer a[target='_blank']::after {
   }
   main section div.articles article {
     width: 100%;
-  }
-  main section div.articles article p {
-    width: auto;
   }
   main section div:first-child {
     width: 100%;
