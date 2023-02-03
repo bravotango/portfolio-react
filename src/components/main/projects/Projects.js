@@ -48,19 +48,19 @@ const Projects = () => {
         />
 
         <Project
-          id='react'
-          title='React'
-          repo='https://github.com/bravotango/React-Redux-Walk-Sequence'
-          deployedLocation='https://www.btgraphix.com/walk'
-          description='8 slides used in conjunction with React and Redux to simulate a walk sequence'
+          id='javascript'
+          title='JavaScript'
+          repo='https://github.com/bravotango/Code-Quiz'
+          deployedLocation='https://bravotango.github.io/Code-Quiz/'
+          description='This application is a short code quiz on JavaScript.'
         />
 
         <Project
-          id='angular'
-          title='Angular'
-          repo='https://github.com/bravotango/Tour-of-Heroes-Overwatch'
-          deployedLocation='https://www.btgraphix.com/overwatch/'
-          description='Based on "Angular - Tutorial: Tour of Heroes", added MaterializeCSS, swapped out tutorial characters for characters of Overwatch'
+          id='express'
+          title='Express'
+          repo='https://github.com/bravotango/Note-Taker'
+          deployedLocation='https://note-taker-bravo-tango.herokuapp.com/'
+          description='An application that can be used to write and save notes. This application uses an Express.js back-end and will save and retrieve note data from a JSON file.'
         />
       </div>
     </section>

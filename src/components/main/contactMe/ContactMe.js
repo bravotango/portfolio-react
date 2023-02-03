@@ -56,12 +56,12 @@ const ContactMe = () => {
           </a>
         </p>
       </div>
-      <div>
+      {/* <div>
         <h3>Send me a message</h3>
         <div>
           <Form />
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

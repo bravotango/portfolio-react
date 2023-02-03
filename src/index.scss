@@ -47,12 +47,11 @@ $celeste: #befdf9ff;
 $sky-blue: #98ddf9ff;
 $dark-sienna: #2a0604ff;
 $seal-brown: #541907ff;
-$blood-red: #6c120cff;
+$blood-red: #6c120c;
 
 body {
   font-size: var(--font-size-default);
   font-family: 'Open Sans Condensed', sans-serif;
-  background-color: $celeste;
   min-width: 300px;
   overflow-y: scroll;
   background: url(./images/bg.jpg);
@@ -170,7 +169,7 @@ header {
 
 // main
 main {
-  width: 90%;
+  width: 60%;
   max-width: 1600px;
   margin: var(--margin-large) auto;
   h2 {
@@ -203,6 +202,7 @@ main {
       margin-bottom: var(--margin-larger);
     }
     h3 {
+      color: #7f130c;
       margin-bottom: var(--margin-medium);
     }
     &#aboutMe,
@@ -317,11 +317,11 @@ main {
         &#react {
           background-image: url(./images/walk.jpg);
         }
-        &#angular {
-          background-image: url(./images/bg-ana.jpg);
+        &#express {
+          background-image: url(./images/noteTaker.png);
         }
-        &#api {
-          background-image: url(./images/joker.png);
+        &#javascript {
+          background-image: url(./images/codeQuiz.png);
         }
         // increase the margin top for the articles after the 1st article
         &:nth-child(n + 2) {
@@ -385,19 +385,19 @@ footer {
 
 // laptop
 @media screen and (max-width: 1028px) {
-  main section {
-    display: flex;
-    flex-direction: column;
-    div {
-      &.articles article {
-        width: 100%;
-        p {
-          width: auto;
+  main {
+    width: 90%;
+    section {
+      display: flex;
+      flex-direction: column;
+      div {
+        &.articles article {
+          width: 100%;
         }
-      }
 
-      &:first-child {
-        width: 100%;
+        &:first-child {
+          width: 100%;
+        }
       }
     }
   }
