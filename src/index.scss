@@ -52,7 +52,6 @@ $blood-red: #6c120c;
 body {
   font-size: var(--font-size-default);
   font-family: 'Open Sans Condensed', sans-serif;
-  background-color: $celeste;
   min-width: 300px;
   overflow-y: scroll;
   background: url(./images/bg.jpg);
@@ -170,7 +169,7 @@ header {
 
 // main
 main {
-  width: 90%;
+  width: 60%;
   max-width: 1600px;
   margin: var(--margin-large) auto;
   h2 {
@@ -386,16 +385,19 @@ footer {
 
 // laptop
 @media screen and (max-width: 1028px) {
-  main section {
-    display: flex;
-    flex-direction: column;
-    div {
-      &.articles article {
-        width: 100%;
-      }
+  main {
+    width: 90%;
+    section {
+      display: flex;
+      flex-direction: column;
+      div {
+        &.articles article {
+          width: 100%;
+        }
 
-      &:first-child {
-        width: 100%;
+        &:first-child {
+          width: 100%;
+        }
       }
     }
   }

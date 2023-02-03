@@ -15,7 +15,7 @@ const AboutMe = () => {
       </div>
       <div>
         <div>
-          <h3>Building websites & applications for over 20 years</h3>
+          <h3>20 years of web development experience</h3>
           <div>
             <p>
               I love transforming ideas into applications accessible for
@@ -26,8 +26,9 @@ const AboutMe = () => {
               I have passion for interface disciplines that contribute to making
               an application intuitive. I implement accessibility with aria
               roles and attributes, semantic colors, semantic markup, flowing
-              margins, whitespace, & responsive design making the code base
-              viewable from tiny mobile to extreme theater-sized monitors.
+              margins, whitespace, & responsive design making markup rendered to
+              the browser viewable from mobile screens to theater-sized
+              monitors.
             </p>
           </div>
         </div>
@@ -40,23 +41,23 @@ const AboutMe = () => {
           <p>
             Working as a Software Development Engineer at Microsoft has been
             wonderful. Experiencing the campus before COVID is something I will
-            always cherish (on my first day, I remember eating ice cream with my
-            new team in the most amazing tree house). I was surrounded with
-            great people. I joined Microsoft to resurrect a project built in
-            Angular. As the Angular codebase retired, we built our new
-            experience in React available on Microsoft Admin Center. Both code
-            bases use TypeScript and deploy code with Azure & Git. I wrote unit
-            tests with Jest. I created Figma prototypes for the team when we did
-            not have a dedicated UX designer. As the project went international,
-            I work on localization, accessibility, and the fine details of
-            world-wide address validation.
+            always cherish (on my first day, I ate ice cream with my new team in
+            the most amazing tree house). I was surrounded with great people. I
+            joined Microsoft to resurrect a project built in Angular. As the
+            Angular codebase retired, we built our new experience in React
+            available on Microsoft Admin Center. Both code bases use TypeScript
+            and deploy code with Azure & Git. I wrote unit tests with Jest. I
+            created Figma prototypes for the team when we did not have a
+            dedicated UX designer. As the project went international, I worked
+            on localization, accessibility, and the fine details of world-wide
+            address validation.
           </p>
           <h4>Premera Blue Cross</h4>
           <p>
-            Working as a Software Developer at Premera was quite a time. Over 16
+            I appreciate my time working as a Software Developer at Premera. 16
             years solidified this as my longest tenure. I raised my family
-            during my time at Premera and many of my peers felt like family. I
-            started building interfaces for Premera in 2002 before CSS
+            during my time at Premera and many of my peers still feel like
+            family. I started building interfaces for Premera in 2002 before CSS
             frameworks were a thing. Premera had many provider relationships
             whose systems required us to support IE 8 (even past the date
             Microsoft supported it). I worked closely with Marketing & Branding
